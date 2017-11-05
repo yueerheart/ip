@@ -1,0 +1,51 @@
+.carousel-fade .carousel-inner .item{
+    opacity:0.3;
+    -webkit-transition-property:opacity ;
+    -moz-transition-property:opacity ;
+    -ms-transition-property:opacity ;
+    -o-transition-property:opacity ;
+    transition-property:opacity ;
+}
+.carousel-fade .carousel-inner .active{
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right{
+    left: 0;
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .next.left,.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-control.left{ background-image:none;}
+.carousel-control.right{ background-image:none;}
+.carousel-control{text-shadow: none;color:rgba(255,200,255,0.5);}
+.carousel-indicators li{border:1px solid #f8ea09}
+.carousel-indicators {bottom:-15px;}
+
+
+
+.btn-a{height:30px;width:80%;background:#fd3a26;display: block;text-align: center;line-height:30px;color:#ffffff;margin:auto;border-radius: 5px;}
+.padd{padding-top:7%;padding-bottom:8%;}
+.nav-tabs{border-bottom:none;}
+.btn-a2{height:30px;line-height:28px;width:70%;border:2px solid #fcd31f;font-size: 16px;text-align: center;display: block;color:#000000;border-radius: 6px;margin:auto;}
+.tab-pane{padding:5%;}
+.m-b{margin-top:5%;}
+#mianfei{background: #f2e4a3;}
+.con h4{font-size:18px;margin-bottom:8%;}
+.con .fei-s{float:right;color:#ff0000;font-size:17px;display: inline-block;}
+.con .fei-s span{font-size:20px;}
+#mianxi{background: #bfc9be;}
+.se2{padding-left:10px;padding-right:10px;margin-top:5%;}
+.tab-p{font-size:14px;line-height:28px;}
+.tab-p img{width:7%;vertical-align: middle;display: inline-block;margin-right:10px;margin-top:-2%;}
+#rijie{background: #ebcc96;}
+#yuejie{background: #d9a9b9;}
+#quanli{background: #bfc9be;}
+#tijian{background: #ebcc96;}
+a{text-decoration: none;}
+a:focus, a:hover{text-decoration: none;}
+.btn-a2:focus, .btn-a2:hover{color:black;}
+.btn-aa:focus, .btn-a:hover{color:#ffffff;}
+.mar{margin-top:16%;margin-bottom:16%;}
+.tabA-active{ background:#fcd31f; font-weight:bolder;color:black;}
+.foot{background: #000000;color:#ffffff;line-height:55px;height:55px;margin-top:3%;font-size:12px;}
